@@ -7,7 +7,11 @@
 >
 > **仅支持轻小说文库及本地导入，不再支持其他源或自定义书源。** 支持 Android、iOS 与 HarmonyOS，并非轻小说文库网站的官方应用。
 
-## 0.5.0
+## Android 0.5.1：后台任务修复
+
+修复从桌面图标启动后，切到后台时最近任务卡片被隐藏的问题。**本次仅 Android 更新至 0.5.1（261）**，iOS 与 HarmonyOS 继续使用 0.5.0（260）。iOS 安装包已移除误打包的 macOS 元数据；遇到 `._ReadingWidgets.appex` 安装报错，请重新下载并签名。
+
+## 0.5.0 的主要更新
 
 **0.5.0 · build 260 已发布。** 从读一本书，到留下这一年的阅读足迹：新增分类统计、八套独立版式的图片报告，以及可独立配置的阅读日历、摘录与纪念桌面小组件。
 
@@ -15,7 +19,7 @@
 
 ## 下载与更新
 
-当前正式版：**[0.5.0 · build 260](https://github.com/mikufoxxx/Wenku8_Flutter/releases/tag/v0.5.0)**。
+当前版本：**[Android 0.5.1 · build 261](https://github.com/mikufoxxx/Wenku8_Flutter/releases/tag/v0.5.1)** · **[iOS / HarmonyOS 0.5.0 · build 260](https://github.com/mikufoxxx/Wenku8_Flutter/releases/tag/v0.5.0)**。
 
 Android 提供正式签名 APK；iOS 与 HarmonyOS 提供未签名安装包。请按设备选择：
 
@@ -23,9 +27,9 @@ Android 提供正式签名 APK；iOS 与 HarmonyOS 提供未签名安装包。�
 
 | 你的设备 | 选择安装包 |
 | :-- | :-- |
-| 近年的 Android 手机、平板 | [**ARM64 APK · 推荐**](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.0/wenku8-0.5.0-arm64-v8a.apk) |
-| 旧款 32 位 ARM 设备 | [ARMv7 APK](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.0/wenku8-0.5.0-armeabi-v7a.apk) |
-| x86_64 设备或模拟器 | [x86_64 APK](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.0/wenku8-0.5.0-x86_64.apk) |
+| 近年的 Android 手机、平板 | [**ARM64 APK · 推荐**](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.1/wenku8-0.5.1-arm64-v8a.apk) |
+| 旧款 32 位 ARM 设备 | [ARMv7 APK](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.1/wenku8-0.5.1-armeabi-v7a.apk) |
+| x86_64 设备或模拟器 | [x86_64 APK](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.1/wenku8-0.5.1-x86_64.apk) |
 | iPhone、iPad | [未签名 IPA](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.0/Wenku8-0.5.0-260-ios-unsigned.ipa) · 需自行签名 |
 | HarmonyOS 设备 | [未签名 HAP](https://github.com/mikufoxxx/Wenku8_Flutter/releases/download/v0.5.0/Wenku8-0.5.0-260-harmony-unsigned.hap) · 需自行签名 |
 
@@ -49,7 +53,7 @@ App 内打开 **我的 → 关于 → 检查更新**，优先走镜像，连接�
   <img src="https://img.shields.io/badge/Android-signed-3DDC84?style=flat-square&amp;logo=android&amp;logoColor=white" alt="Android · 正式签名" />
   <img src="https://img.shields.io/badge/iOS-self--sign-555555?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="iOS · 自行签名" />
   <img src="https://img.shields.io/badge/HarmonyOS-self--sign-3157D5?style=flat-square" alt="HarmonyOS · 自行签名" />
-  <img src="https://img.shields.io/badge/Build-260-65756E?style=flat-square" alt="Build 260" />
+  <img src="https://img.shields.io/badge/Android_build-261-65756E?style=flat-square" alt="Android build 261" />
   <a href="assets/licenses/GPL-3.0.txt"><img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square&amp;logo=gnu&amp;logoColor=white" alt="GPL 3.0" /></a>
 </p>
 
