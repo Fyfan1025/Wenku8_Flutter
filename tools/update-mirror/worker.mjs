@@ -249,7 +249,7 @@ export default {
       return response;
     }
     return handle(request, { fetcher: (...args) => fetch(...args), cache: caches.default, waitUntil: task => ctx.waitUntil(task),
-      registry: env.RELEASE_REGISTRY ? (suffix, stale) => env.RELEASE_REGISTRY.get(env.RELEASE_REGISTRY.idFromName('public-releases')).fetch(`https://registry/${suffix}${stale ? '?download=1' : ''}`) : null });
+      registry: env.RELEASE_REGISTRY ? (suffix, stale) => env.RELEASE_REGISTRY.get(env.RELEASE_REGISTRY.idFromName(`public-releases:${CACHE_NAMESPACE}`)).fetch(`https://registry/${suffix}${stale ? '?download=1' : ''}`) : null });
   },
 };
 
